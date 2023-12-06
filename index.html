@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aynam's Todo List</title>
+    <link href="index.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Noto+Sans+JP:wght@530&family=Poppins:wght@300&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+</head>
+
+<body>
+    <div id="root">
+        <h1>Aynam's Todo List</h1>
+        <form id="todo-form">
+            <input type="text" id="todo-input" class="todo-input" placeholder="Add a new todo" />
+            <button type="submit" id="add-todo" class="todo-button">
+                <i class="fa-solid fa-pen"></i>
+            </button>
+            <!-- <div class="select">
+                <select name="todos" id="filter-todo" class="filter-todo">
+                    <option value="all">All</option>
+                    <option value="complete">Complete</option>
+                    <option value="incomplete">Incomplete</option>
+                </select>
+            </div>
+            <button type="button" id="clear-all" class="todo-clear">Clear All</button> -->
+        </form>
+
+        <div class="todoContainer">
+            <ul id="todo-list" class="todo-list"></ul>
+        </div>
+    </div>
+
+    <script src="index.pack.jsx"></script>
+</body>
+
+</html>
