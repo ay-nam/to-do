@@ -1,4 +1,60 @@
-.todo li {
+.todo-app {
+    background-color: #ffffff;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    text-align: center;
+  }
+  
+  #todo-form {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .todo-input {
+    flex: 1;
+    padding: 10px;
+    font-size: 1rem;
+    border: none;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .todo-button {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .todo-button:hover {
+    background-color: #45a049;
+  }
+  
+  .todoContainer {
+    margin-top: 20px;
+  }
+  
+  .todo-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .todo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+  }
+  
+  .todo li {
     flex: 1;
     margin-left: 10px;
   }
@@ -35,3 +91,4 @@
   .todo-clear:hover {
     opacity: 0.8;
   }
+  
