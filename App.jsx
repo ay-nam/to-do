@@ -31,7 +31,7 @@ const App = () => {
       <h1>Aynam's Todo List</h1>
       <form id="todo-form">
         <input
-          type="text"
+          type='text'
           id="todo-input"
           className="todo-input"
           placeholder="Add a new todo"

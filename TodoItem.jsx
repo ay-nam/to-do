@@ -14,4 +14,4 @@ const TodoItem = ({ id, text, completed, onDelete, onToggleComplete }) => {
   );
 };
 
-export default TodoItem;
+export default TodoItem ;
